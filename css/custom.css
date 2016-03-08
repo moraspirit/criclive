@@ -1,0 +1,32 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 8, 2015, 2:15:08 PM
+    Author     : Chanaka
+*/
+
+.has-feedback-combo {
+    position: relative;
+}
+.has-feedback-combo .form-control {
+    /*padding-right: 42.5px;*/
+    padding-right: 25px;
+    padding-left: 8px;
+}
+.has-feedback-combo label ~ .form-control-feedback {
+    top: 25px;
+}
+.has-feedback-combo label.sr-only ~ .form-control-feedback {
+    top: 0;
+}
+@media (min-width: 768px) {
+    .form-inline .has-feedback-combo .form-control-feedback {
+        top: 0;
+    }
+}
+.form-horizontal .has-feedback-combo .form-control-feedback {
+    right: 20px;
+}
