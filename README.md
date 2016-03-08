@@ -12,4 +12,5 @@ $con = mysqli_connect("localhost", "user", "pass", "morasp5_criclive", "3306");
 
 then navigate to `localhost/criclive` .
 
+![moraspirit logo](http://moraspirit.com/sites/default/files/msp_text_logo_300.png)  
 baked with ♥♥ in UOM.
